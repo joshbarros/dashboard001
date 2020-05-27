@@ -1,0 +1,17 @@
+{
+  "name": "dashboard001",
+  "version": "1.0.0",
+  "description": "Primeiro dashboard criado com html/css!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dashboard",
+    "html",
+    "css",
+    "jquery"
+  ],
+  "author": "Josue Barros",
+  "license": "MIT"
+}
