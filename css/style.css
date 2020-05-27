@@ -21,16 +21,20 @@ html, body{
 .w33{
 	width: 33.3%;
 }
-
+.active{
+	color: rgb(255,64,127) !important;
+	font-style: italic;
+	font-weight: bold;
+}
 div.sidebar{
 	float: left;
 	width: 300px;
-	background: #2D3035;
+	background: #6B6DB5;
 	height: 100%;
 }
 
 div.topo{
-	background: #26282D;
+	background: #262882;
 	text-align: center;
 	padding: 20px 10px;
 }
@@ -48,25 +52,28 @@ div.menu ul{
 }
 
 div.menu li{
-	margin-bottom: 20px;
-	font-size: 18px;
-	color: #717171;
+	margin-bottom: 25px;
+	font-size: 15px;
+	color: #ffffff;
 }
 
 div.menu ul li a{
+	margin-left: 15px;
 	font-size: 18px;
-	color: #717171;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 div.menu li:hover i{
 	transition: 0.6s;
-	color: #6D38B8;
+	color: #E4E889;
 }
 
 div.menu li:hover a{
 	transition: 0.6s;
-	color: white;
+	color: #E4E889;
+	font-size: 20px;
+	text-decoration: underline;
 }
 
 /* FIM DA SIDEBAR */
@@ -79,7 +86,7 @@ div.main-content{
 
 header{
 	height: 90px;
-	background: white;
+	background: #A0C8E8;
 	padding: 20px 15px;
 	border-bottom: 2px solid #ccc;
 }
@@ -161,7 +168,7 @@ header{
 .nome-usuario h2{
 	font-weight: normal;
 	font-size: 18px;
-	color: #A7A7A7;
+	color: white;
 	margin-top: 8px;
 	cursor: pointer;
 }
@@ -176,28 +183,40 @@ header{
 
 .panel{
 	margin-bottom: 10px;
-	padding: 30px;
+	padding: 5px;
 	width: 100%;
 	float: left;
 	border: 2px solid #EBEBEB;
 	background: white;
+	height: 200px;
+	overflow: hidden;
 }
 
 .panel h2{
 	color: #7E7E7E;
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: normal;
 }
 
-.panel p{
+.panel h3{
+	text-align: center;
 	font-size: 17px;
-	color: #B2B2B2;
-	margin-top: 10px;
+	color: black;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.panel h4{
+	color: #7E7E7E;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 60px;
 }
 
 .ultimas-atividades{
 	width: 20%;
-	background: #EAEBEB;
+	background: #B5836B;
 	padding: 20px 40px;
 	float: left;
 	height: calc(100% - 90px);
@@ -205,7 +224,7 @@ header{
 }
 
 .atividades-topo h2{
-	color: #7E7E7E;
+	color: white;
 	font-size: 23px;
 	border-bottom: 1px solid #ccc;
 	padding: 15px;
@@ -219,13 +238,13 @@ header{
 }
 
 .atividade-registro h2{
-	color: #BBBBBB;
+	color: white;
 	font-size: 19px;
 	font-weight: normal;
 }
 
 .atividade-registro p{
-	color: #B2B2B2;
+	color: white;
 	font-size: 15px;
 }
 
@@ -237,7 +256,7 @@ header{
 	height: 20px;
 	border: 1px solid #cccccc;
 	border-radius: 10px;
-	background: #E9EBEB;
+	background: white;
 }
 
 @media screen and (max-width: 768px)
