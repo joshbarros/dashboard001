@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Primeiro dashboard criado com html/css!",
   "main": "index.js",
+  "homepage": "https://joshbarrosweb.github.io/dashboard001",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "dashboard",
@@ -13,5 +14,8 @@
     "jquery"
   ],
   "author": "Josue Barros",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
